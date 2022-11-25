@@ -1,0 +1,671 @@
+@font-face {
+    font-family: Bold;
+    src: url(/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p,a{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+
+body {
+    font-weight: 500;
+    font-size: medium;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Bold;
+}
+p,a{
+    font-family: Regular;
+}
+.logo {
+    width: 35%;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-item a {
+    color: white;
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active a {
+    opacity: 1;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar {
+    background-color: #232536;
+}
+
+.our-service {
+    background-color: #FFE6D2;
+    padding: 6rem 0 6rem 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.our-service a {
+    color: black;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.frame a {
+    font-weight: 500;
+    font-size: 0, 875rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.items {
+    border: 1px solid rgba(35, 37, 54, 0.17);
+    padding: 1rem;
+    margin-right: 1rem;
+
+}
+
+.our-progress {
+    padding: 6rem 0 6rem 0;
+}
+
+.title a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    opacity: 0.87;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* or 150% */
+
+
+    color: #232536;
+    opacity: 0.87;
+}
+
+.card-content div {
+    float: right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* identical to box height, or 133% */
+
+
+    /* Black */
+
+    color: #232536;
+
+    opacity: 0.2;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    /* identical to box height, or 175% */
+
+
+    color: #000000;
+}
+
+.flex {
+    display: flex;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.feature-1 {
+    padding: 0 0 6rem 0;
+}
+
+.feature-2 {
+    background-color: #ECF8F9;
+    padding: 0 0 6rem 0;
+}
+
+.feature-3 {
+    padding: 0 0 6rem 0;
+
+}
+
+.feature-4 {
+    padding: 0 0 6rem 0;
+}
+
+.feature-5 {
+    padding: 0 0 6rem 0;
+}
+
+.form-letter {
+    background-color: #666DFF;
+    margin-bottom: 4rem;
+}
+
+.form-letter a,
+.form-letter h3 {
+    color: white;
+}
+
+.footer-top {
+    margin-bottom: 4rem;
+}
+
+.footer-top a {
+    color: black;
+}
+
+.footer-top h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+}
+
+.footer-top h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    /* identical to box height, or 150% */
+
+
+    color: #232536;
+}
+
+.footer-top p {
+    opacity: 1;
+}
+
+.page a {
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service a {
+    margin-bottom: 1rem;
+}
+
+.resourses a {
+    margin-bottom: 1rem;
+}
+
+.contact-link {
+    float: right;
+}
+
+.contact-link a {
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.footer-bottom {
+    background-color: #FFE6D2;
+}
+
+.ft-bt-logo img {
+    margin-right: 2rem;
+}
+
+/*Company*/
+.dot {
+    width: 24px;
+    height: 24px;
+    background-color: #FFD3AF;
+}
+
+.company-header {
+    margin-top: 6rem;
+}
+
+.caption a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.caption {
+    margin-top: 2rem;
+}
+
+.story-right {
+    background-color: rgba(255, 211, 175, 0.57);
+    padding: 3rem;
+}
+
+.blue {
+    background-color: #444CFC;
+}
+
+.pink {
+    background-color: #FFD3AF;
+
+}
+
+.orange {
+    background-color: #FFA155;
+}
+
+.logo-bar {
+    background-color: #FAFAFC;
+}
+
+.expertise-section {
+    background-color: #ECF8F9;
+    padding: 6rem 0 6rem 0;
+}
+
+.exp {
+    background-color: #fff;
+}
+
+.ex-tx h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.our-vision {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.heading-our-vision {
+    margin-bottom: 1rem;
+}
+
+.heading-our-vision a {
+    color: #000000;
+}
+
+.img-items {
+    padding: 0;
+}
+
+.meet-our-teams a {
+    color: #000000;
+}
+
+.meet-our-teams {
+    margin: 6rem 0 6rem 0;
+}
+
+/*carreer*/
+.caption-carreer a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #232536;
+}
+
+.carreer-caption {
+    width: 90%;
+}
+
+.header-carreer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #FAFAFC;
+}
+
+.content-header-carreer {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    /* or 121% */
+
+
+    /* Black */
+
+    color: #232536;
+}
+
+.more-option a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    /* identical to box height, or 156% */
+
+
+    color: #232536;
+
+}
+.carreer-section{
+    background-color: #FAFAFC;
+    padding-bottom: 6rem;
+}
+
+.carreer-section .container {
+    background-color: #ECF8F9;
+    padding: 4rem;
+}
+
+.content-section h6 {
+    font-style:normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.825rem;
+    /* identical to box height, or 175% */
+
+
+    /* Black */
+
+    color: #232536;
+
+}
+.content-section p{
+    opacity: 0.6;
+}
+
+.section-item {
+    background-color: #fff;
+    padding: 2rem;
+}
+.out-work p{
+    opacity: 0.6;
+}
+.our-work{
+    background-color: #FAFAFC;
+    padding-bottom: 6rem;
+}
+.cards{
+    background-color: #fff;
+    padding: 1rem;
+}
+/*inner-career*/
+.shapes-logo{
+    float: right;
+}
+.job-description{
+    background-color: #FFE0C7;
+}
+.header-inner-career{
+    padding: 6rem 0 6rem 0;
+}
+.tab-career .container{
+    background-color: #ECF8F9;
+}
+.tab-career-content{
+    padding: 6rem;
+}
+.form-apply{
+    padding: 6rem 0 6rem 0;
+}
+/*blog*/
+.blur{
+    opacity: 0.5;
+}
+.right{
+    float: right;
+}
+.header-blog-right{
+    background-color: #FFDFC6;
+}
+.blog-content{
+    padding: 4rem;
+}
+.blog-header{
+    padding: 6rem 0 6rem 0;
+}
+.recent-post{
+    padding-bottom: 6rem;
+}
+.all-post{
+    padding-bottom: 6rem;
+}
+/*inner-blog*/
+.header-inner-blog{
+    padding: 6rem 0 6rem 0;
+}
+.text{
+    padding: 6rem;
+    text-align: justify;
+}
+/*Team-Page*/
+.avatar{
+    padding: 6rem 0 6rem 0;
+}
+.social-blog{
+    width: 8rem;
+    height: auto;
+}
+.blog-section-page{
+    background-color: #ECF8F9;
+    padding: 6rem 0;
+    margin-bottom: 6rem;
+}
+.blog-card{
+    background-color: #fff;
+}
+/* Contact-page*/
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+}
+.input-wrapper input{
+    all: unset;
+    border-bottom: 1px solid #3d405b;
+}
+.input-wrapper textarea{
+    all: unset;
+    border-bottom: 1px solid #3d405b;
+}
+.form-contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.address-form{
+    background-color: #666DFF;
+    padding: 4rem;
+}
+.text-white p, .text-white h6{
+    color: white;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.right-shapes{
+    display: flex;
+    justify-content: end;
+}
+.form-contact{
+    padding: 6rem 0;
+}
+.map{
+    padding: 6rem 0;
+}
+.header-policy{
+    padding: 6rem 0;
+}
+.privacy{
+    padding: 4rem 6rem;
+    background-color: #ECF8F9;
+}
+@media(max-width: 576px) {
+    .content h2 {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .feature-1,
+    .feature-2,
+    .feature-3,
+    .feature-4,
+    .feature-5 {
+        padding: 0 0 3rem 0;
+    }
+
+    .feature-items {
+        margin-bottom: 2rem;
+    }
+
+    .form-letter {
+        display: none;
+    }
+
+    .footer-top h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .contact-link {
+        float: left;
+    }
+
+    .logo-social {
+        display: none;
+    }
+
+    .story-right {
+        display: none;
+    }
+
+    .ex-tx h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .vision-img {
+        padding: 1rem;
+    }
+
+    .img-items {
+        margin-bottom: 2rem;
+    }
+    .text{
+        text-align: start;
+    }
+    .blog-card{
+        margin-bottom: 2rem;
+    }
+    .input-wrapper{
+        width: 100%;
+    }
+    .form-us{
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .logo-bar {
+        display: none;
+    }
+
+    .cp-header-heading h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .tab-career-content{
+        padding:1rem;
+    }
+   .card{
+    margin-bottom: 1rem;
+   }
+   .all-post .row{
+    margin-bottom: 0;
+   }
+   .privacy{
+    padding: 0 0;
+   }
+}
+@media (max-width:576px) {
+    .form-check-input{
+        width: 3em;
+        height: 1em;
+    }
+}

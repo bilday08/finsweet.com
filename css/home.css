@@ -1,0 +1,514 @@
+
+@font-face {
+    font-family: Bold;
+    src: url(/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Bold;
+}
+p,a{
+    font-family: Regular;
+}
+
+.logo{
+    width: 35%;
+}
+.navbar-nav{
+justify-content: space-between;
+width: 100%;
+}
+.nav-item a{
+    color: white;
+    opacity:0.7 ;
+}
+a{
+    text-decoration: none;
+}
+.active a{
+    opacity: 1;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar{
+    background-color: #232536;
+}
+
+.header {
+    background-color: #232536;
+    color: white;
+    padding: 6rem 0 6rem 0;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+
+img {
+    object-fit: cover;
+
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.06);
+    transform: rotate(-90deg);
+}
+
+.text-opacity-normal {
+    opacity: 1;
+}
+
+.button {
+    opacity: 1;
+}
+
+.about-us {
+    background-color: white;
+    color: #000000;
+    padding: 7.5rem 0 7.5rem 0;
+}
+
+.a-about-us {
+    color: black;
+}
+
+.h2-content-us {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #232536;
+}
+
+.about-top p {
+    color: #5D5F6D;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.about-top h3 {
+    color: #232536;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 3.375rem;
+}
+
+.numbers h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 3.375rem;
+
+}
+
+.numbers p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+}
+
+.expertise-section {
+    background-color: #ECF8F9;
+    padding: 6rem 0 6rem 0;
+}
+
+.exp {
+    background-color: #fff;
+}
+
+.shapes-ex {
+    width: 1rem;
+    height: 1rem;
+    background-color: #444CFC;
+}
+
+.ex-tx a {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    opacity: 0.87;
+
+}
+
+.ex-tx h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    /* or 121% */
+
+
+    color: #232536;
+
+}
+
+.content h6 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    /* identical to box height, or 175% */
+
+
+    color: #000000;
+}
+
+.our-service {
+    background-color: #FFE6D2;
+    padding: 6rem 0 6rem 0;
+}
+
+.h2-content-us h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.625rem;
+}
+
+.our-service-top h2 {
+    font-style: medium;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.625rem;
+}
+
+.our-service-top a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.oscard {
+    padding: 2rem;
+    margin-bottom: 3.125rem;
+}
+
+.oscard h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.items {
+    border: 1px solid rgba(35, 37, 54, 0.17);
+    padding: 1rem;
+    margin-right:1rem ;
+
+}
+
+.our-progress {
+    padding: 6rem 0 6rem 0;
+}
+
+.title a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    opacity: 0.87;
+}
+
+.heading-2 h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.625rem;
+    /* or 121% */
+
+
+    color: #232536;
+}
+
+.para p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* or 150% */
+
+
+    color: #232536;
+
+    opacity: 0.87;
+}
+
+.card-content div {
+    float: right;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* identical to box height, or 133% */
+
+
+    /* Black */
+
+    color: #232536;
+
+    opacity: 0.2;
+}
+
+.shp {
+    margin-right: 1.25rem;
+}
+
+.quote {
+    float: right;
+}
+
+.blog-section {
+    background-color: #ECF8F9;
+    padding: 6rem 0 6rem 0;
+}
+
+.bl-card-content h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.bl-card-content p {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* identical to box height, or 143% */
+
+
+    color: #232536;
+
+    opacity: 0.6;
+}
+
+.bl-card-content a {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* identical to box height, or 150% */
+
+
+    color: #444CFC;
+
+    opacity: 0.87;
+}
+
+.testimonials-section {
+    padding: 6rem 0 6rem 0;
+}
+
+.cta-bg {
+    background-color: #666DFF;
+    padding: 0;
+}
+
+.text,
+.input {
+    width: 85%;
+    height: 2.5rem;
+}
+
+.cta-content {
+    padding: 6rem 0 6rem 0;
+}
+
+.feature-1 {
+    padding: 0 0 6rem 0;
+}
+
+.feature-2 {
+    background-color: #ECF8F9;
+    padding: 0 0 6rem 0;
+}
+
+.feature-3 {
+    padding: 0 0 6rem 0;
+
+}
+
+.feature-4 {
+    padding: 0 0 6rem 0;
+}
+
+.feature-5 {
+    padding: 0 0 6rem 0;
+}
+
+.form-letter {
+    background-color: #666DFF;
+    margin-bottom: 4rem;
+}
+
+.form-letter a,
+.form-letter h3 {
+    color: white;
+}
+
+.footer-top {
+    margin-bottom: 4rem;
+}
+
+.footer-top a {
+    color: black;
+}
+
+.footer-top h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+.footer-top h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2rem;
+    /* identical to box height, or 150% */
+
+
+    color: #232536;
+}
+
+.footer-top p {
+    opacity: 1;
+}
+
+.page a {
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service a {
+    margin-bottom: 1rem;
+}
+
+.resourses a {
+    margin-bottom: 1rem;
+}
+
+.contact-link {
+    float: right;
+}
+
+.contact-link a {
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.footer-bottom {
+    background-color: #FFE6D2;
+}
+.ft-bt-logo img{
+    margin-right: 2rem;
+}
+.footer{
+    margin-top: 6rem;
+}
+
+@media(max-width: 576px) {
+    .content h2 {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .feature-1,
+    .feature-2,
+    .feature-3,
+    .feature-4,
+    .feature-5 {
+        padding: 0 0 3rem 0;
+    }   
+
+    .feature-items {
+        margin-bottom: 2rem;
+    }
+
+    .form-letter {
+        display: none;
+    }
+
+    .footer-top h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .contact-link {
+        float: left;
+    }
+    .logo-social{
+        display: none;
+    }
+}
+.title{
+    width: 25%;
+}
+@media(max-width:991px) {
+    .header-logo{
+        display: none;
+    }
+    .title{
+        width: 100%;
+    }
+}
